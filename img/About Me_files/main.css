@@ -175,8 +175,12 @@ main {
     padding: 0.5rem;
     border-bottom: #5d9eee 5px solid; }
 
-.resume .btn-light {
+.resume .sm-heading {
   margin-top: 2rem; }
+
+.resume object {
+  width: 70vw;
+  height: 85vh; }
 
 .projects {
   display: grid;
@@ -273,7 +277,9 @@ main {
     grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
     grid-template-columns: 1fr; }
   .projects {
-    grid-template-columns: repeat(2, 1fr); } }
+    grid-template-columns: repeat(2, 1fr); }
+  object {
+    width: 80vw; } }
 
 @media screen and (max-width: 512px) {
   h1.lg-heading, h2.lg-heading, h3.lg-heading {
